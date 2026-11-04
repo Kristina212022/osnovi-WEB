@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Формула 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Формула 1</h1>
+    <hr>
+    <br>
+    <button id="startBtn" onclick="startRace()">Започни трка</button>
+    <p style="padding: 2px; text-align: right;" id="lapInfo">Круг : 0 / 10</p>
+
+    <table border="1" id="raceTable">
+        <thead>
+            <tr>
+                <th>Позиција</th>
+                <th>Возач</th>
+                <th>Тим</th>
+                <th>Брзина</th>
+                <th>Вештина</th>
+                <th>Време</th>
+                <th>Статус</th> 
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    <br>
+
+    <h3>НАСТАНИ:</h3>
+    <div id="logBox" style="border: 1px solid rgb(255, 2, 2); padding: 10px; height: 150px; overflow-y: scroll;">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
